@@ -6,10 +6,10 @@ metadata:
   labels:
     app: frontend
     tier: web
-  spec:
+spec:
   # modify replicas according to your case
-    replicas: 3
-    selector:
+  replicas: 3
+  selector:
     # replicaset use these labels to find the pods for creating desired number of replicas
     matchLabels:
       app: frontend
